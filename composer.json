@@ -1,0 +1,21 @@
+{
+    "name": "ashraful/phonebook",
+    "description": "A simple CRUD application",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Phonebook\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Ashraful Alam",
+            "email": "ashraful4dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
